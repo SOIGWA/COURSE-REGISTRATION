@@ -1,3 +1,4 @@
+
 from registration_system import RegistrationSystem
 
 def display_menu():
@@ -74,7 +75,7 @@ def main():
     system.add_course("Python Programming", "Dr. Wilson", 3, 25)
     system.add_course("Data Structures", "Prof. Davis", 4, 30)
     
-    
+    # Hash map (dictionary) to map menu choices to handler functions
     menu_handlers = {
         "1": add_student_handler,
         "2": add_course_handler,
